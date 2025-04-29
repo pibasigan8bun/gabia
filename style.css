@@ -1,0 +1,232 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  color: #222;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 16px;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 16px;
+}
+
+.tab {
+  display: flex;
+  gap: 10px;
+  margin-right: 12px;
+  margin-left: 12px;
+}
+
+.login {
+  color: #666666;
+}
+
+.button-info{
+  background-color: #9CA0A7;
+  color: #fff;
+  padding: 2px 16px;
+}
+
+.top-right img:last-child {
+  margin-right: 0;
+}
+
+.search-area {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.search-box {
+  position: relative;
+  width: 40%;
+}
+
+.search-box input {
+  width: 100%;
+  padding: 16px 40px 16px 16px;
+  border: 1px solid #03c75a;
+  border-radius: 50px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.search-box input:focus {
+  outline: none;
+}
+
+.search-box .search-icon {
+  position: absolute;
+  right: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.menu-tabs {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #ddd;
+  padding: 12px 16px;
+}
+
+.menu-tabs a {
+  text-decoration: none;
+  color: #222;
+  margin-right: 20px;
+  font-weight: 500;
+  font-size: 14px;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+.menu-tabs a:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.main-content {
+  display: flex;
+  padding: 24px 16px;
+  max-width: 1200px;
+  margin: auto;
+  gap: 24px;
+}
+
+.left-content {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.right-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid #e8e8e8;
+}
+
+.ad-img {
+  width: 100%;
+  margin: 12px 0;
+  border-radius: 8px;
+}
+
+.buy-btn {
+  display: inline-block;
+  background-color: #03c75a;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 6px;
+  margin-top: 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.login-box input {
+  width: 100%;
+  padding: 10px;
+  margin: 6px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.login-box h5 {
+  text-align: center;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 20px;
+  background-color: #03c75a;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  margin-top: 8px;
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  background-color: #009342;
+}
+
+.login-links {
+  margin-top: 12px;
+  font-size: 13px;
+  color: #555;
+  text-align: center;
+}
+
+.login-links a {
+  text-decoration: none;
+  color: #555;
+}
+
+.ranking-list {
+  margin-top: 10px;
+  padding-left: 16px;
+}
+
+.ranking-list li {
+  margin-bottom: 6px;
+  font-size: 14px;
+}
+
+.weather-widget {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.weather-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.weather-icon {
+  width: 48px;
+  height: 48px;
+}
+
+.temperature {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.condition {
+  font-size: 14px;
+  color: #555;
+}
+
+.weather-footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  color: #888;
+}
